@@ -1,0 +1,32 @@
+Como usar github
+
+-- Vamos a la pagina de github y generamos un nuevo repor por cada proyecto
+
+-- Copiamos las url que nos da con ".git" y vamos a nuetra consola de linux
+
+-- Clonamos el repositor
+
+git clone <url de nuestro proyecto>
+
+-- Repetimos la misma accion con cada repo que desamos generar
+
+
+Como trabajar con git
+
+-- Generamos el codigo de nuestra aplicacion dentro de cada repo, una vez terminado el trabajo lo enviamos a la nube de github
+
+-- Nos paramos en la carpeta de nuestro proyecto
+
+-- Agregamos los cambios
+
+git add --all
+
+-- Le ponemos un comentario a nuestro trabajo
+
+git commit -m "<nuestro comentario"
+
+-- Enviamos nuestro trabajo a la nube
+
+git push origin master
+
+-- Una vez que termine de procesar podemos ver nuestro trabajo en github.
